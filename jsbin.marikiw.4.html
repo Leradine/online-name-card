@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2023 by Leradine (http://jsbin.com/marikiw/4/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <title>Boglárka Villám</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,700&display=swap" rel="stylesheet">
+<style id="jsbin-css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://i.imgur.com/ClSU71x.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 100%;
+  margin: 0 auto;
+  color: #0a465d;
+  font-family: "Playfair Display"; 
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.name-headline {
+  font-size: 1.125rem;
+  position: relative;
+  top: -60px;
+}
+
+span {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+.about {
+  position: relative;
+  top: -60px;
+  font-size: 18px;
+}
+
+/* Profile Styles*/
+
+.profile-image {
+  margin-top: -60px;
+}
+
+.picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 1px;
+  background-color: hsla(300, 76%, 72%);
+  filter: grayscale(100%);
+  position: relative;
+  top: -80px;
+}
+
+.picture:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+  filter: grayscale(10%);
+}
+
+/* Links Styles */
+
+.links {
+  position: relative;
+  top: -40px;
+}
+
+a:hover {
+  color: hsla(300, 100%, 80%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+</style>
+</head>
+<body>
+  <div class="profile-card"> 
+    <div class="head">
+      <div class="profil-image">
+        <img class="picture" src="https://i.imgur.com/1vOZxhv.jpg" alt="Boglárka Villám"></a>
+      </div>
+      <div class="name-headline">
+        <h1><strong>Boglárka Villám</strong></h1>
+        <h2>Graphic designer, illustrator</h2>
+        <span>from</span>
+        <p><i class="fa fa-map-marker"></i>Budapest, HU</p>
+      </div>
+    </div>
+    <div class="content">
+      <p class="about">
+        <strong>I love art and the digital world, I think they can create wonderful things together. I always wanted to be a part of it. This is what I'm currently working on... Check it out!</strong> <em>@MissLightning @Leradine</em>
+      </p>
+      <sections class="links">
+        <h2>Contact me via:</h2>
+        <ul>
+          <li><a href="https://www.facebook.com/Leradine" alt="facebook"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/misslightning_art/" alt="instagram"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/Leradine" alt="github"><i class="fa fa-2x fa-github-square" aria-hidden="true"></i></a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
